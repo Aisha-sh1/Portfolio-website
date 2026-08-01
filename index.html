@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Aisha</a>
+        <div class="nav__menu" id="nav__menu">
+          <ul class="nav__list">
+            <li>
+              <a href="#home" class="nav__link">Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+
+            <li>
+              <a href="#project" class="nav__link">Projects</a>
+            </li>
+
+            <li>
+              <a href="#resume" class="nav__link">Resume</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+          <!-- Close Button -->
+          <div class="nav__close" id="nav__close">
+            <li class="ri-close-large-line"></li>
+          </div>
+        </div>
+
+        <!-- ====Toggle Menu==== -->
+        <div class="nav__toggle" id="nav__toggle">
+          <li class="ri-menu-line"></li>
+        </div>
+      </nav>
+    </header>
+
+    <!-- =======================MAIN====================== -->
+    <main class="main">
+      <!-- =======================HOME====================== -->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <div class="home__image">
+              <img src="assets/img/profil1.jpg" alt="image" class="home__img" />
+            </div>
+
+            <div class="home__social">
+              <a
+                href="www.linkedin.com/in/aishashcodes1"
+                target="_blank"
+                class="home__link"
+              >
+                <i class="ri-linkedin-box-fill"></i>
+              </a>
+
+              <a
+                href="https://github.com/Aisha-sh1"
+                target="_blank"
+                class="home__link"
+              >
+                <i class="ri-github-fill"></i>
+              </a>
+
+              <a
+                href="https://dribbble.com/ayse-suvehni"
+                target="_blank"
+                class="home__link"
+              >
+                <i class="ri-dribbble-line"></i>
+              </a>
+            </div>
+          </div>
+          <div class="home__data grid">
+            <p class="home__subtitle">
+              Hi I'm a <span id="home-typed">Web Developer</span>
+            </p>
+            <h1 class="home__title">Aisha Shwehne</h1>
+
+            <p class="home__description">
+              I'm a frontend web developer crafting original, user-focused web
+              experiences. I also teach robotics and coding to kids, and create
+              visual content for a science and technology community.
+            </p>
+
+            <div class="home__buttons">
+              <a
+                href="assets/pdf/Ayse_Suvehni_CV_English.pdf"
+                download=""
+                target="_blank"
+                class="button"
+                >Download CV</a
+              >
+              <a href="#project" class="button button__ghost">Project</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <div class="about__left">
+            <div class="about__content">
+              <div class="about__data">
+                <h2 class="about__title">About Me</h2>
+                <p class="about__description">
+                  Hi, I'm Aisha — a frontend web developer, robotics and coding
+                  instructor, and media contributor for a science and technology
+                  community. I teach weekly robotics sessions to kids aged
+                  12–14, while also designing and building my own web projects
+                  from scratch. I'm fluent in Arabic, Turkish, and English. In
+                  my free time, I enjoy drawing, watching films, and graphic
+                  design — I care about creating authentic, personal work rather
+                  than generic templates.
+                </p>
+                <a href="#contact" class="button button__ghost">Contact Me</a>
+              </div>
+            </div>
+
+            <div class="about__skills">
+              <h3 class="about__subtitle">
+                <i class="ri-bookmark-3-fill"></i>
+                <span>Skills</span>
+              </h3>
+
+              <ul class="about__items">
+                <li class="about__item">HTML</li>
+                <li class="about__item">CSS</li>
+                <li class="about__item">JavaScript</li>
+                <li class="about__item">Git</li>
+                <li class="about__item">Github</li>
+                <li class="about__item">CapCut</li>
+                <li class="about__item">Affinity</li>
+                <li class="about__item">Microsoft Office</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="about__image">
+            <img src="assets/img/profil2.jpg" alt="image" class="about__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__container container grid">
+          <article class="projects__card">
+            <img src="assets/img/coffe.png" alt="image" class="projects__img" />
+            <div class="projects__data">
+              <h3 class="projects__title">Coffee Shop</h3>
+              <p class="projects__description">HTML, CSS and JavaScript.</p>
+              <a
+                href="#"
+                target="_blank"
+                class="button button__ghost projects__button"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/dress-shop.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <h3 class="projects__title">Dress Shop</h3>
+              <p class="projects__description">HTML, CSS and JavaScript.</p>
+              <a href="#" target="_blank" class="button button__ghost"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/login.png" alt="image" class="projects__img" />
+            <div class="projects__data">
+              <h3 class="projects__title">Login Page</h3>
+              <p class="projects__description">HTML, CSS and JavaScript.</p>
+              <a href="#" target="_blank" class="button button__ghost"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img
+              src="assets/img/sidebar.png"
+              alt="image"
+              class="projects__img"
+            />
+            <div class="projects__data">
+              <h3 class="projects__title">Sidebar</h3>
+              <p class="projects__description">HTML, CSS and JavaScript.</p>
+              <a href="#" target="_blank" class="button button__ghost"
+                >View Project</a
+              >
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/cake.png" alt="image" class="projects__img" />
+            <div class="projects__data">
+              <h3 class="projects__title">Cake Shop</h3>
+              <p class="projects__description">
+                HTML, CSS and JavaScript.
+                <a href="#" target="_blank" class="button button__ghost"
+                  >View Project</a
+                >
+              </p>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="assets/img/image.png" alt="image" class="projects__img" />
+            <div class="projects__data">
+              <h3 class="projects__title">Image Gallery</h3>
+              <p class="projects__description">HTML, CSS and JavaScript.</p>
+              <a href="#" target="_blank" class="button button__ghost"
+                >View Project</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!--==================== RESUME ====================-->
+      <section class="resume section" id="resume">
+        <h2 class="section__title">My Resume</h2>
+
+        <div class="resume__container container grid">
+          <div class="resume__content grid">
+            <h3 class="resume__subtitle">
+              <i class="ri-graduation-cap-fill"></i>
+              <span>Experience</span>
+            </h3>
+
+            <div class="resume__list grid">
+              <div class="resume__data">
+                <h3 class="resume__title">Accountancy</h3>
+
+                <div class="resume__info">
+                  <address>Gentug Textil</address>
+                  <address>2024</address>
+                </div>
+                <p class="resume__description">
+                  Invoices were entered into the accounting department.
+                </p>
+              </div>
+
+              <div class="resume__data">
+                <h3 class="resume__title">Barista</h3>
+
+                <div class="resume__info">
+                  <address>Puf Puf Bakirkoy</address>
+                  <address>2025</address>
+                </div>
+                <p class="resume__description">preparing coffee and drinks.</p>
+              </div>
+
+              <div class="resume__data">
+                <h3 class="resume__title">Customer representative</h3>
+
+                <div class="resume__info">
+                  <address>Residenc</address>
+                  <address>2025</address>
+                </div>
+                <p class="resume__description">
+                  customer relations via telephone
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume__content grid">
+            <h3 class="resume__subtitle">
+              <i class="ri-graduation-cap-fill"></i>
+              <span>Education</span>
+            </h3>
+
+            <div class="resume__list grid">
+              <div class="resume__data">
+                <h3 class="resume__title">Middle school diploma</h3>
+
+                <div class="resume__info">
+                  <address>Hizir Reis</address>
+                  <address>2016 - 2020</address>
+                </div>
+                <p class="resume__description">
+                  The period from 5th grade to 8th grade
+                </p>
+              </div>
+
+              <div class="resume__data">
+                <h3 class="resume__title">High School Diploma</h3>
+
+                <div class="resume__info">
+                  <address>Immib Erkan Avci MTAL</address>
+                  <address>2020 - 2025</address>
+                </div>
+                <p class="resume__description">Information technology field</p>
+              </div>
+
+              <div class="resume__data">
+                <h3 class="resume__title">University Diploma</h3>
+
+                <div class="resume__info">
+                  <address>Gelisim University</address>
+                  <address>2025 - 2029</address>
+                </div>
+                <p class="resume__description">
+                  Computer Engineering Department
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <form action="" class="contact__form grid" id="contact-form">
+            <input
+              type="text"
+              placeholder="Names"
+              name="user_name"
+              required
+              class="contact__input"
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              name="user_email"
+              required
+              class="contact__input"
+            />
+
+            <textarea
+              placeholder="Message"
+              name="user_message"
+              required
+              class="contact__input"
+            ></textarea>
+
+            <button type="submit" class="button">Send Message</button>
+          </form>
+
+          <div class="contact__content grid">
+            <div class="contact__data grid">
+              <address class="contact__address">
+                <i class="ri-mail-fill"></i>
+                <span>aysesuvehn@gmail.com</span>
+              </address>
+
+              <address class="contact__address">
+                <i class="ri-smartphone-fill"></i>
+                <span>+90 123 456 78 90</span>
+              </address>
+
+              <address class="contact__address">
+                <i class="ri-map-pin-fill"></i>
+                <span>Istanbul, Turkey</span>
+              </address>
+
+              <address class="contact__address">
+                <i class="ri-time-fill"></i>
+                <span>Mon - Fri: 9 AM - 5 PM</span>
+              </address>
+            </div>
+            <div class="contact__social">
+              <a href="" target="_blank" class="contact__link">
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+
+              <a href="" target="_blank" class="contact__link">
+                <i class="ri-messenger-fill"></i>
+              </a>
+
+              <a href="" target="_blank" class="contact__link">
+                <i class="ri-telegram-2-fill"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- =================Main js==================== -->
+    <script src=""></script>
+
+    <!-- =================Mail js==================== -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- =================typed js==================== -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/3.0.0/typed.umd.min.js"></script>
+
+    <!-- =================Main js==================== -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
